@@ -1,9 +1,9 @@
 export interface Option {
   key: number;
-  name: String;
-  location: String;
-  kind: String;
-  image: String;
+  name: string;
+  location: string;
+  kind: string;
+  image: string;
 }
 
 export const options = [
