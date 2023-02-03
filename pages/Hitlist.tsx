@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import { Option } from '../type/Option';
+import { Option } from './type/Option';
 import Goal from './Goal';
 
 const Hitlist: NextPage<{ hitlist: Option[] }> = ({ hitlist }) => {
