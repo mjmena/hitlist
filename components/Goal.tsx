@@ -12,12 +12,24 @@ const Goal: NextPage<{ goal: Option }> = ({ goal }) => {
     else if (color === 'bg-red-500') setColor('bg-black');
   }, [color]);
 
-  const style = `cursor-pointer select-none hover:brightness-150 ${color} `;
+  const style = `cursor-pointer select-none hover:brightness-150 ${color}`;
 
   return (
-    <div className={style} onClick={(e) => cycleColor()}>
-      <div className="text-white text-center">{goal.name}</div>
-      <Image src={goal.image} width={96} height={96} alt={goal.name} />
+    <div className="w-28">
+      <div className={style} onClick={(e) => cycleColor()}>
+        <div className="text-white text-center ">{goal.name}</div>
+        <Image
+          className="mx-2"
+          src={goal.image}
+          width={96}
+          height={96}
+          alt={goal.name}
+        />
+      </div>
+      <div className="text-white text-center text-xs">
+        <div>{goal.world}</div>
+        <div>{goal.room}</div>
+      </div>
     </div>
   );
 };

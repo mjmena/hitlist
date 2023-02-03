@@ -9,9 +9,9 @@ const Hitlist: NextPage<{ hitlist: Option[] }> = ({ hitlist }) => {
 
   return (
     <main className="bg-black w-screen h-screen">
-      <div className="flex flex-row justify-left">
+      <div className="flex flex-row flex-wrap justify-left">
         {hitlist.map((goal, index) => (
-          <div className="min-w-fit border border-black">
+          <div className="min-w-fit">
             <Goal key={seed + String(index)} goal={goal} />
           </div>
         ))}

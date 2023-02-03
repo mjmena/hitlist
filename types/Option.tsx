@@ -1,7 +1,8 @@
 export interface Option {
   key: number;
   name: string;
-  location: string;
+  world: string;
+  room: string;
   kind: string;
   image: string;
 }
@@ -10,7 +11,8 @@ export const options = [
   {
     key: 0,
     name: 'Marluxia',
-    location: 'Disney Castle - The Hall of the Cornerstone',
+    world: 'Disney Castle',
+    room: 'The Hall of the Cornerstone',
     kind: 'Absent Silhouette',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/marluxia_zguimk.png',
@@ -18,15 +20,17 @@ export const options = [
   {
     key: 1,
     name: 'Larxene',
-    location: 'Space Paranoids - Central Computer Core',
+    world: 'Space Paranoids',
+    room: 'Central Computer Core',
     kind: 'Absent Silhouette',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445989/larxene_ohwyxd.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675449193/larxene_ljwk6g.png',
   },
   {
     key: 2,
     name: 'Zexion',
-    location: 'Olympus Coliseum - Cave of the Dead Inner Chamber',
+    world: 'Olympus Coliseum',
+    room: 'Cave of the Dead Inner Chamber',
     kind: 'Absent Silhouette',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/zexion_kkvtno.png',
@@ -34,7 +38,8 @@ export const options = [
   {
     key: 3,
     name: 'Lexaeus',
-    location: 'Agrabah - The Peddler’s Shop',
+    world: 'Agrabah',
+    room: 'The Peddler’s Shop',
     kind: 'Absent Silhouette',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445989/lexaeus_hfa434.png',
@@ -42,7 +47,8 @@ export const options = [
   {
     key: 4,
     name: 'Vexen',
-    location: 'Halloween Town - Yuletide Hill',
+    world: 'Halloween Town',
+    room: 'Yuletide Hill',
     kind: 'Absent Silhouette',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/vexen_zgtzca.png',
@@ -50,7 +56,8 @@ export const options = [
   {
     key: 5,
     name: 'Roxas',
-    location: 'Simulated Twilight Town - Mansion Pod Room',
+    world: 'Simulated Twilight Town',
+    room: 'Mansion Pod Room',
     kind: 'Data Org',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/roxas_pfqvtm.png',
@@ -58,7 +65,8 @@ export const options = [
   {
     key: 6,
     name: 'Xemnas',
-    location: 'The World that Never Was - The Altar of Naught',
+    world: 'The World that Never Was',
+    room: 'The Altar of Naught',
     kind: 'Data Org',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/xemnas_sft5g8.png',
@@ -66,7 +74,8 @@ export const options = [
   {
     key: 7,
     name: 'Xigbar',
-    location: 'Land of Dragons - Summit',
+    world: 'Land of Dragons',
+    room: 'Summit',
     kind: 'Data Org',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/xigbar_yvaewx.png',
@@ -74,7 +83,8 @@ export const options = [
   {
     key: 8,
     name: 'Xaldin',
-    location: ' Beast’s Castle - Ballroom',
+    world: 'Beast’s Castle',
+    room: 'Ballroom',
     kind: 'Data Org',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/xaldin_pm0iec.png',
@@ -82,7 +92,8 @@ export const options = [
   {
     key: 9,
     name: 'Saix',
-    location: 'Pride Lands - Peak',
+    world: 'Pride Lands',
+    room: 'Peak',
     kind: 'Data Org',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/saix_cempl3.png',
@@ -90,7 +101,8 @@ export const options = [
   {
     key: 10,
     name: 'Axel',
-    location: 'Twilight Town - Betwixt and Between',
+    world: 'Twilight Town',
+    room: 'Betwixt and Between',
     kind: 'Data Org',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445989/axel_rncx54.png',
@@ -98,7 +110,8 @@ export const options = [
   {
     key: 11,
     name: 'Demyx',
-    location: 'Radiant Garden - Restoration Site',
+    world: 'Radiant Garden',
+    room: 'Restoration Site',
     kind: 'Data Org',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/demyx_tormwt.png',
@@ -106,7 +119,8 @@ export const options = [
   {
     key: 12,
     name: 'Luxord',
-    location: 'Port Royal - Isla de Muerta Treasure Heap',
+    world: 'Port Royal',
+    room: 'Isla de Muerta Treasure Heap',
     kind: 'Data Org',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/luxord_gnc2wp.png',
@@ -114,7 +128,7 @@ export const options = [
   {
     key: 13,
     name: 'Sephiroth',
-    location: '',
+    world: 'Radiant Garden',
     kind: 'Superboss',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/sephiroth_qszgsx.png',
@@ -122,7 +136,8 @@ export const options = [
   {
     key: 14,
     name: 'Lingering Will',
-    location: 'Disney Castle - The Hall of the Cornerstone',
+    world: 'Disney Castle',
+    room: 'The Hall of the Cornerstone',
     kind: 'Superboss',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/lingering_will_knich0.png',
@@ -130,7 +145,6 @@ export const options = [
   {
     key: 15,
     name: 'Drive Forms',
-    location: '',
     kind: 'Other',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/max_drive_forms_isguq2.png',
@@ -138,7 +152,7 @@ export const options = [
   {
     key: 16,
     name: 'Yeet the Bear',
-    location: '',
+    world: '100 Acre Wood',
     kind: 'Other',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/yeet_the_bear_uiuzvj.png',
