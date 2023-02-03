@@ -3,19 +3,26 @@ import { useState, useEffect } from 'react';
 import { Option, options } from '../types/Option';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import Link from 'next/link';
 import Hitlist from '../components/Hitlist';
 
 const Home: NextPage = () => {
   const hitlist = useQueryHitlist();
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <>
       <Head>
         <title>Hit List</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hitlist hitlist={hitlist} />
-    </div>
+      <Link
+        className="fixed bottom-0 left-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
+        href="/"
+      >
+        New Seed
+      </Link>
+    </>
   );
 };
 

@@ -129,7 +129,7 @@ export const options = [
   },
   {
     key: 15,
-    name: 'Max Drive Forms',
+    name: 'Drive Forms',
     location: '',
     kind: 'Other',
     image:

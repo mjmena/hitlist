@@ -8,18 +8,14 @@ const Hitlist: NextPage<{ hitlist: Option[] }> = ({ hitlist }) => {
   const seed = useRouter().asPath;
 
   return (
-    <main className="flex flex-1 flex-col justify-center px-20">
-      <Link
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
-        href="/"
-      >
-        New Seed
-      </Link>
-      <br />
-      <br />
-      {hitlist.map((goal, index) => (
-        <Goal key={seed + String(index)} goal={goal} />
-      ))}
+    <main className="bg-black w-screen h-screen">
+      <div className="flex flex-row justify-left">
+        {hitlist.map((goal, index) => (
+          <div className="min-w-fit border border-black">
+            <Goal key={seed + String(index)} goal={goal} />
+          </div>
+        ))}
+      </div>
     </main>
   );
 };
