@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Option, options } from '../types/Option';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import Hitlist from './Hitlist';
+import Hitlist from '../components/Hitlist';
 
 const Home: NextPage = () => {
   const hitlist = useQueryHitlist();
