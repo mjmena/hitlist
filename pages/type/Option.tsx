@@ -1,0 +1,96 @@
+export interface Option {
+  key: number;
+  name: String;
+  location: String;
+  kind: String;
+}
+
+export const options = [
+  {
+    key: 0,
+    name: 'Marluxia',
+    location: 'Disney Castle - The Hall of the Cornerstone',
+    kind: 'Absent Silhouette',
+  },
+  {
+    key: 1,
+    name: 'Larxene',
+    location: 'Space Paranoids - Central Computer Core',
+    kind: 'Absent Silhouette',
+  },
+  {
+    key: 2,
+    name: 'Zexion',
+    location: 'Olympus Coliseum - Cave of the Dead Inner Chamber',
+    kind: 'Absent Silhouette',
+  },
+  {
+    key: 3,
+    name: 'Lexaeus',
+    location: 'Agrabah - The Peddler’s Shop',
+    kind: 'Absent Silhouette',
+  },
+  {
+    key: 4,
+    name: 'Vexen',
+    location: 'Halloween Town - Yuletide Hill',
+    kind: 'Absent Silhouette',
+  },
+  {
+    key: 5,
+    name: 'Roxas',
+    location: 'Simulated Twilight Town - Mansion Pod Room',
+    kind: 'Data Org',
+  },
+  {
+    key: 6,
+    name: 'Xemnas',
+    location: 'The World that Never Was - The Altar of Naught',
+    kind: 'Data Org',
+  },
+  {
+    key: 7,
+    name: 'Xigbar',
+    location: 'Land of Dragons - Summit',
+    kind: 'Data Org',
+  },
+  {
+    key: 8,
+    name: 'Xaldin',
+    location: ' Beast’s Castle - Ballroom',
+    kind: 'Data Org',
+  },
+  {
+    key: 9,
+    name: 'Saix',
+    location: 'Pride Lands - Peak',
+    kind: 'Data Org',
+  },
+  {
+    key: 10,
+    name: 'Axel',
+    location: 'Twilight Town - Betwixt and Between',
+    kind: 'Data Org',
+  },
+  {
+    key: 11,
+    name: 'Demyx',
+    location: 'Radiant Garden - Restoration Site',
+    kind: 'Data Org',
+  },
+  {
+    key: 12,
+    name: 'Luxord',
+    location: 'Port Royal - Isla de Muerta Treasure Heap',
+    kind: 'Data Org',
+  },
+  { key: 13, name: 'Sephiroth', location: '', kind: 'Superboss' },
+  {
+    key: 14,
+    name: 'Lingering Will',
+    location: 'Disney Castle - The Hall of the Cornerstone',
+    kind: 'Superboss',
+  },
+  { key: 15, name: 'Max Drive Forms', location: '', kind: 'Other' },
+  { key: 16, name: 'Yeet the Bear', location: '', kind: 'Other' },
+];
