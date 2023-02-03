@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Image from 'next/image';
 import { useCallback, useState } from 'react';
 import { Option } from '../types/Option';
 
@@ -15,6 +16,7 @@ const Goal: NextPage<{ goal: Option }> = ({ goal }) => {
 
   return (
     <div className={style} onClick={(e) => cycleColor()}>
+      <Image src={goal.image} width={96} height={96} />
       {goal.name} {goal.location}
     </div>
   );

@@ -14,7 +14,13 @@ module.exports = {
   assetPrefix: assetPrefix,
   basePath: basePath,
   images: {
-    loader: 'imgix',
-    path: 'the "domain" of your Imigix source',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        port: '',
+        pathname: '/do8pjvazp/**',
+      },
+    ],
   },
 };
