@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import { useCallback, useState } from 'react';
-import { Option } from './type/Option';
+import { Option } from '../types/Option';
 
 const Goal: NextPage<{ goal: Option }> = ({ goal }) => {
   const [color, setColor] = useState('bg-white');
