@@ -13,7 +13,7 @@ export const options = [
     location: 'Disney Castle - The Hall of the Cornerstone',
     kind: 'Absent Silhouette',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/marluxia_ruzwvo.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/marluxia_zguimk.png',
   },
   {
     key: 1,
@@ -21,7 +21,7 @@ export const options = [
     location: 'Space Paranoids - Central Computer Core',
     kind: 'Absent Silhouette',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/larxene_oeyddj.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445989/larxene_ohwyxd.png',
   },
   {
     key: 2,
@@ -29,7 +29,7 @@ export const options = [
     location: 'Olympus Coliseum - Cave of the Dead Inner Chamber',
     kind: 'Absent Silhouette',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/zexion_kvd5ys.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/zexion_kkvtno.png',
   },
   {
     key: 3,
@@ -37,7 +37,7 @@ export const options = [
     location: 'Agrabah - The Peddler’s Shop',
     kind: 'Absent Silhouette',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/lexaeus_hr2tdr.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445989/lexaeus_hfa434.png',
   },
   {
     key: 4,
@@ -45,7 +45,7 @@ export const options = [
     location: 'Halloween Town - Yuletide Hill',
     kind: 'Absent Silhouette',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/vexen_enwra4.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/vexen_zgtzca.png',
   },
   {
     key: 5,
@@ -53,7 +53,7 @@ export const options = [
     location: 'Simulated Twilight Town - Mansion Pod Room',
     kind: 'Data Org',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/roxas_fhrkb7.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/roxas_pfqvtm.png',
   },
   {
     key: 6,
@@ -61,7 +61,7 @@ export const options = [
     location: 'The World that Never Was - The Altar of Naught',
     kind: 'Data Org',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/xemnas_batjfc.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/xemnas_sft5g8.png',
   },
   {
     key: 7,
@@ -69,7 +69,7 @@ export const options = [
     location: 'Land of Dragons - Summit',
     kind: 'Data Org',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/xigbar_uijnj0.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/xigbar_yvaewx.png',
   },
   {
     key: 8,
@@ -77,7 +77,7 @@ export const options = [
     location: ' Beast’s Castle - Ballroom',
     kind: 'Data Org',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/xaldin_rbyb8o.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/xaldin_pm0iec.png',
   },
   {
     key: 9,
@@ -85,7 +85,7 @@ export const options = [
     location: 'Pride Lands - Peak',
     kind: 'Data Org',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/saix_wy2azk.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/saix_cempl3.png',
   },
   {
     key: 10,
@@ -93,7 +93,7 @@ export const options = [
     location: 'Twilight Town - Betwixt and Between',
     kind: 'Data Org',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/axel_ydjlqs.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445989/axel_rncx54.png',
   },
   {
     key: 11,
@@ -101,7 +101,7 @@ export const options = [
     location: 'Radiant Garden - Restoration Site',
     kind: 'Data Org',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/demyx_dzexqu.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/demyx_tormwt.png',
   },
   {
     key: 12,
@@ -109,7 +109,7 @@ export const options = [
     location: 'Port Royal - Isla de Muerta Treasure Heap',
     kind: 'Data Org',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/luxord_lkkzjg.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/luxord_gnc2wp.png',
   },
   {
     key: 13,
@@ -117,7 +117,7 @@ export const options = [
     location: '',
     kind: 'Superboss',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/sephiroth_zh63kh.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/sephiroth_qszgsx.png',
   },
   {
     key: 14,
@@ -125,7 +125,7 @@ export const options = [
     location: 'Disney Castle - The Hall of the Cornerstone',
     kind: 'Superboss',
     image:
-      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/lingering_will_jcoien.png',
+      'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/lingering_will_knich0.png',
   },
   {
     key: 15,
