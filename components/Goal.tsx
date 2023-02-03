@@ -16,7 +16,7 @@ const Goal: NextPage<{ goal: Option }> = ({ goal }) => {
 
   return (
     <div className={style} onClick={(e) => cycleColor()}>
-      <Image src={goal.image} width={96} height={96} />
+      <Image src={goal.image} width={96} height={96} alt={goal.name} />
       {goal.name} {goal.location}
     </div>
   );
