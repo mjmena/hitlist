@@ -129,6 +129,7 @@ export const options = [
     key: 13,
     name: 'Sephiroth',
     world: 'Radiant Garden',
+    room: '',
     kind: 'Superboss',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675445990/sephiroth_qszgsx.png',
@@ -145,6 +146,8 @@ export const options = [
   {
     key: 15,
     name: 'Drive Forms',
+    world: '',
+    room: '',
     kind: 'Other',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/max_drive_forms_isguq2.png',
@@ -153,6 +156,7 @@ export const options = [
     key: 16,
     name: 'Yeet the Bear',
     world: '100 Acre Wood',
+    room: '',
     kind: 'Other',
     image:
       'https://res.cloudinary.com/do8pjvazp/image/upload/v1675439249/yeet_the_bear_uiuzvj.png',
